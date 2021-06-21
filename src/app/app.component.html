@@ -1,2 +1,13 @@
-<h1>Angular12 Issues</h1>
-<router-outlet></router-outlet>
+<ng-container
+  *ngIf="
+    (loginService.isLoggedIn$ | async) && !(loginService.loginPending$ | async);
+    else login
+  "
+>
+  Protected
+  <router-outlet></router-outlet>
+</ng-container>
+
+<ng-template #login>
+  <router-outlet></router-outlet>
+</ng-template>
