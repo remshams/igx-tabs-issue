@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "igx-a12-issues": {
+    "igx-tabs-issue": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:application": {
@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/igx-a12-issues",
+            "outputPath": "dist/igx-tabs-issue",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -71,10 +71,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "igx-a12-issues:build:production"
+              "browserTarget": "igx-tabs-issue:build:production"
             },
             "development": {
-              "browserTarget": "igx-a12-issues:build:development"
+              "browserTarget": "igx-tabs-issue:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -82,7 +82,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "igx-a12-issues:build"
+            "browserTarget": "igx-tabs-issue:build"
           }
         },
         "test": {
@@ -107,5 +107,5 @@
       }
     }
   },
-  "defaultProject": "igx-a12-issues"
+  "defaultProject": "igx-tabs-issue"
 }

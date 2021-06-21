@@ -7,7 +7,7 @@ import { LoginService } from './_common/login.service';
   styleUrls: ['./app.component.css'],
 })
 export class AppComponent {
-  title = 'igx-a12-issues';
+  title = 'igx-tabs-issue';
 
   constructor(public loginService: LoginService) {}
 }

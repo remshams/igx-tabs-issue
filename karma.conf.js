@@ -25,7 +25,7 @@ module.exports = function (config) {
       suppressAll: true // removes the duplicated traces
     },
     coverageReporter: {
-      dir: require('path').join(__dirname, './coverage/igx-a12-issues'),
+      dir: require('path').join(__dirname, './coverage/igx-tabs-issue'),
       subdir: '.',
       reporters: [
         { type: 'html' },
