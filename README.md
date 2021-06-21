@@ -1,6 +1,6 @@
 # IgxTabsIssue
 
-Repository showcasing IgxTabs "Cannot read property 'disconnect' of undefined" issue.
+Repository showcasing IgxTabs "Cannot read property 'disconnect' of undefined" [issue](https://github.com/IgniteUI/igniteui-angular/issues/9765).
 
 ## Development server
 
